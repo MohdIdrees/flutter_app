@@ -4,6 +4,10 @@ import 'package:first_demo_app/pages/bmiCalculator/screens/results_page.dart';
 import 'package:first_demo_app/pages/climaWeatherModule/screens/loading_screen.dart';
 import 'package:first_demo_app/pages/destini/destini_page.dart';
 import 'package:first_demo_app/pages/diceGame/dicee_page.dart';
+import 'package:first_demo_app/pages/flashChat/screens/chat_screen.dart';
+import 'package:first_demo_app/pages/flashChat/screens/login_screen.dart';
+import 'package:first_demo_app/pages/flashChat/screens/registration_screen.dart';
+import 'package:first_demo_app/pages/flashChat/screens/welcome_screen.dart';
 import 'package:first_demo_app/pages/flyingBirds/flying_birds_page.dart';
 import 'package:first_demo_app/pages/loginModule/forgot_password_page.dart';
 import 'package:first_demo_app/pages/homePage/home_page.dart';
@@ -45,7 +49,8 @@ class WidgetsDemo extends StatelessWidget {
         //'/': (context) => ListingPage(),
         //AppRoutes.loadingRoute: (context) => LoadingScreen(),
         //'/': (context) => LoadingScreen(),
-        '/': (context) => PriceScreen(),
+        //'/': (context) => PriceScreen(),
+        '/': (context) => WelcomeScreen(),
         AppRoutes.musicRoute: (context)=> const MusicPage(),
         AppRoutes.diceRoute: (context)=> const DicePage(),
         AppRoutes.destiniRoute: (context) => const DestiniPage(),
@@ -55,6 +60,10 @@ class WidgetsDemo extends StatelessWidget {
         AppRoutes.loginRoute: (context) => LoginPage(),
         AppRoutes.signupRoute: (context) => SignUpPage(),
         AppRoutes.forgotPasswordRoute: (context) => ForgotPasswordPage(),
+        AppRoutes.welcomeScreenRoute: (context) => WelcomeScreen(),
+        AppRoutes.loginScreenRoute: (context) => LoginScreen(),
+        AppRoutes.registrationScreenRoute: (context) => RegistrationScreen(),
+        AppRoutes.chatScreenRoute: (context) => ChatScreen(),
         //AppRoutes.resultRoute: (context) => ResultPage(),
       },
     );

@@ -10,4 +10,8 @@ class AppRoutes {
   static const bmiRoute = "/bmi";
   static const loadingRoute = "/loading";
   static const birdRoute = "/bird";
+  static const welcomeScreenRoute = "/welcome_screen";
+  static const loginScreenRoute = "/login_screen";
+  static const registrationScreenRoute = "/registration_screen";
+  static const chatScreenRoute = "/chat_screen";
 }
