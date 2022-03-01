@@ -35,6 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(32.0)),
                 ),
+
                 enabledBorder: OutlineInputBorder(
                   borderSide:
                       BorderSide(color: Colors.lightBlueAccent, width: 1.0),
